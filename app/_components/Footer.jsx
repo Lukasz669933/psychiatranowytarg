@@ -16,7 +16,7 @@ const Footer = () => {
           zrozumienie.
         </p>
 
-        <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
+        {/* <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
           <li className="hover:text-primary hover:scale-105 transition-all ease-in-out cursor-pointer">
             <Link href="/">About</Link>
           </li>
@@ -29,7 +29,7 @@ const Footer = () => {
           <li className="hover:text-primary hover:scale-105 transition-all ease-in-out cursor-pointer">
             <Link href="/">Policies</Link>
           </li>
-        </ul>
+        </ul> */}
 
         {/* <ul className="mt-12 flex justify-center gap-6 md:gap-8">
           <li className="hover:text-primary hover:scale-110 text-gray-700">

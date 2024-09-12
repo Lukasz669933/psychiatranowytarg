@@ -43,7 +43,7 @@ const Header = () => {
           />
         </Link>
         <div className="flex items-center gap-8">
-          <ul className="hidden md:flex gap-8">
+          {/* <ul className="hidden md:flex gap-8">
             {menu.map((item, index) => (
               <Link href={item.path} key={index}>
                 <li className="hover:text-primary hover:scale-105 transition-all ease-in-out cursor-pointer">
@@ -51,7 +51,7 @@ const Header = () => {
                 </li>
               </Link>
             ))}
-          </ul>
+          </ul> */}
           <Link href={"#contact"} className="">
             {" "}
             <Button>Kontakt</Button>
