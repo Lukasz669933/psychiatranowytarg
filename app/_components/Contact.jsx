@@ -38,9 +38,6 @@ const Contact = () => {
               Godziny otwarcia
             </h3>
 
-            <p className="text-gray-800 text-center text-lg my-2 group-hover:text-gray-100">
-              Biuro znajduje się
-            </p>
             <p className="text-gray-800 text-center text-xl my-2 group-hover:text-gray-50">
               Wtorek, Czwartek, Piątek <br />
               około od godziny 13 do 18
@@ -58,14 +55,14 @@ const Contact = () => {
               Adres
             </h3>
 
-            <p className="text-gray-800 text-center text-lg my-2 group-hover:text-gray-100">
-              Biuro znajduje się
-            </p>
             <p className="text-gray-800 text-center text-xl my-2 group-hover:text-gray-50">
               ulica Szkolna 2, <br /> 34-400 Nowy Targ
             </p>
             <div className="flex gap-4 items-center justify-center">
-              <a href="https://maps.apple.com/?address=Szkolna%202,%2034-400%20Nowy%20Targ,%20Poland&ll=49.482500,20.029300&q=Szkolna%202&t=h" target="_blank">
+              <a
+                href="https://maps.apple.com/?address=Szkolna%202,%2034-400%20Nowy%20Targ,%20Poland&ll=49.482500,20.029300&q=Szkolna%202&t=h"
+                target="_blank"
+              >
                 <Image
                   width={100}
                   height={100}
@@ -74,7 +71,10 @@ const Contact = () => {
                   className="w-[50px] h-[65px] object-cover"
                 />
               </a>
-              <a href="https://www.google.com/maps/place/Szkolna+2,+34-400+Nowy+Targ,+Poland/@49.4825963,20.0293376,17z/data=!4m6!3m5!1s0x4715e4ec470ee6c3:0x5edf21ad7eb8dc39!8m2!3d49.4825963!4d20.0293376!16s%2Fg%2F11csnwytd_" target="_blank">
+              <a
+                href="https://www.google.com/maps/place/Szkolna+2,+34-400+Nowy+Targ,+Poland/@49.4825963,20.0293376,17z/data=!4m6!3m5!1s0x4715e4ec470ee6c3:0x5edf21ad7eb8dc39!8m2!3d49.4825963!4d20.0293376!16s%2Fg%2F11csnwytd_"
+                target="_blank"
+              >
                 <Image
                   width={100}
                   height={100}
